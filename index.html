@@ -10,7 +10,7 @@
     <section id="recipe-section">
       <h2 class="section-heading">Welcome to the Recipe Finder!</h2>
       <input
-        placeholder="Feeling hungry? Just tape any ingredient name here and I'll give you some ideas!"
+        placeholder="Feeling hungry stranger? Just type here any ingredient name and I'll find you someething tasty!"
         aria-label="food-input"
         id="food-input"
         onchange="handleFoodChange()"
@@ -18,7 +18,8 @@
       <button id="recipe-button" onclick="handleRecipeClick()">
         Give me a recipe!
       </button>
-      <a id="recipe-label"></a>
+      <!-- <a id="recipe-label"></a> -->
+      <div id="recipe-results"></div>
     </section>
 
     <script src="./main.js"></script>
